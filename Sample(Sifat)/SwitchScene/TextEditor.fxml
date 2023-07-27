@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="590.0" prefWidth="676.0" styleClass="sidebar_opt2" stylesheets="@styleSheets.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SwitchScene.Scene1Main">
+    <children>
+        <Button layoutX="596.0" layoutY="538.0" mnemonicParsing="false" onAction="#switchToRecreation" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Next" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="12.0" />
+         </font></Button>
+        <Button fx:id="btn_copy" layoutX="43.0" layoutY="123.0" mnemonicParsing="false" onAction="#onClick_btn_copy" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Copy" textFill="WHITE">
+            <font>
+                <Font name="Algerian" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="btn_copySelect" layoutX="114.0" layoutY="123.0" mnemonicParsing="false" onAction="#onClick_btn_copySelect" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Copy Selected" textFill="WHITE">
+            <font>
+                <Font name="Algerian" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="btn_import" layoutX="255.0" layoutY="123.0" mnemonicParsing="false" onAction="#onClick_btn_Import" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Import" textFill="WHITE">
+            <font>
+                <Font name="Algerian" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="btn_save" layoutX="335.0" layoutY="123.0" mnemonicParsing="false" onAction="#onClick_btn_Save" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Save" textFill="WHITE">
+            <font>
+                <Font name="Algerian" size="15.0" />
+            </font>
+        </Button>
+        <Label fx:id="lbl_FontSize" layoutX="448.0" layoutY="103.0" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Font size" textFill="WHITE">
+            <font>
+                <Font name="Algerian" size="14.0" />
+            </font>
+        </Label>
+        <Slider fx:id="s" layoutX="434.0" layoutY="141.0" prefHeight="26.0" prefWidth="140.0" showTickLabels="true" showTickMarks="true" />
+        <Button fx:id="btn_exit" layoutX="590.0" layoutY="21.0" mnemonicParsing="false" onAction="#onClick_btn_exit" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Exit" textFill="WHITE">
+            <font>
+                <Font name="Algerian" size="16.0" />
+            </font>
+        </Button>
+        <TextArea fx:id="txtOutput" layoutX="62.0" layoutY="234.0" prefHeight="238.0" prefWidth="546.0" styleClass="sidebar" stylesheets="@styleSheets.css" />
+        <DatePicker fx:id="myDatePicker" layoutX="247.0" layoutY="26.0" onAction="#getDate" promptText="Enter a date" />
+      <Button layoutX="14.0" layoutY="538.0" mnemonicParsing="false" onAction="#switchToScene4" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Go back to previous " textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="12.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

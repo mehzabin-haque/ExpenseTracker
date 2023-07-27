@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" styleClass="sidebar_opt2" stylesheets="@styleSheets.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SwitchScene.Scene1Main">
+    <children>
+        <Button layoutX="752.0" layoutY="538.0" mnemonicParsing="false" onAction="#Last" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Next" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Button>
+        <Button fx:id="btn_copy" layoutX="127.0" layoutY="123.0" mnemonicParsing="false" onAction="#onClick_btn_copy" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Copy" textFill="WHITE">
+            <font>
+                <Font name="Comic Sans MS" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="btn_copySelect" layoutX="194.0" layoutY="123.0" mnemonicParsing="false" onAction="#onClick_btn_copySelect" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Copy Selected" textFill="WHITE">
+            <font>
+                <Font name="Comic Sans MS" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="btn_import" layoutX="327.0" layoutY="123.0" mnemonicParsing="false" onAction="#onClick_btn_Import" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Import" textFill="WHITE">
+            <font>
+                <Font name="Comic Sans MS" size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="btn_save" layoutX="409.0" layoutY="123.0" mnemonicParsing="false" onAction="#onClick_btn_Save" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Save" textFill="WHITE">
+            <font>
+                <Font name="Comic Sans MS" size="15.0" />
+            </font>
+        </Button>
+        <Label fx:id="lbl_FontSize" layoutX="574.0" layoutY="99.0" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Font size" textFill="WHITE">
+            <font>
+                <Font name="Comic Sans MS" size="14.0" />
+            </font>
+        </Label>
+        <Slider fx:id="s" layoutX="535.0" layoutY="139.0" prefHeight="26.0" prefWidth="140.0" showTickLabels="true" showTickMarks="true" />
+        <TextArea fx:id="txtOutput" layoutX="127.0" layoutY="239.0" prefHeight="238.0" prefWidth="546.0" styleClass="sidebar" stylesheets="@styleSheets.css" />
+        <DatePicker fx:id="myDatePicker" layoutX="289.0" layoutY="38.0" onAction="#getDate" promptText="Enter a date" />
+      <Button layoutX="-4.0" layoutY="538.0" mnemonicParsing="false" onAction="#switchToScene4" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Go back to previous " textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

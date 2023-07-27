@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <center>
+            <AnchorPane prefHeight="500.0" prefWidth="725.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="TOP_CENTER" layoutX="46.0" prefHeight="247.0" prefWidth="753.0" styleClass="pane" stylesheets="@styleSheets.css" AnchorPane.leftAnchor="46.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <HBox>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <children>
+                              <Text fill="#5416b7" strokeType="OUTSIDE" strokeWidth="0.0" text="Want to save some more?" wrappingWidth="256.3973846435547">
+                                 <font>
+                                    <Font name="Algerian" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#5416b7" layoutX="20.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="                                                                                     Save Now" wrappingWidth="453.9973602294922">
+                                 <font>
+                                    <Font name="Algerian" size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="203.0" prefWidth="752.0" styleClass="pane" stylesheets="@styleSheets.css" VBox.vgrow="ALWAYS">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <children>
+                              <ImageView fitHeight="133.0" fitWidth="231.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Images/save1.jpg" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="63.0" top="40.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <ImageView fitHeight="133.0" fitWidth="227.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Images/save2.jpg" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets top="40.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <ImageView fitHeight="155.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Images/save4.jpg" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets top="40.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="123.0" layoutY="296.0" prefHeight="100.0" prefWidth="100.0">
+                     <children>
+                        <Text fill="#5416b7" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bolder;" text="                     Remained Balance" wrappingWidth="266.24896240234375">
+                           <font>
+                              <Font name="Algerian" size="14.0" />
+                           </font></Text>
+                        <TextField>
+                           <VBox.margin>
+                              <Insets bottom="10.0" top="40.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="464.0" layoutY="296.0" prefHeight="100.0" prefWidth="100.0">
+                     <children>
+                        <Text fill="#5416b7" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bolder;" text="                            For Savings" wrappingWidth="266.24896240234375">
+                           <font>
+                              <Font name="Algerian" size="14.0" />
+                           </font></Text>
+                        <TextField fx:id="textFieldSavings">
+                           <VBox.margin>
+                              <Insets bottom="10.0" top="40.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <Button layoutX="544.0" layoutY="403.0" mnemonicParsing="false" onAction="#switchToScene4" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Add" textFill="WHITE">
+                     <font>
+                        <Font name="Algerian" size="14.0" />
+                     </font></Button>
+                  <AnchorPane prefHeight="506.0" prefWidth="46.0" styleClass="backgroundColor" stylesheets="@styleSheets.css">
+                     <children>
+                        <ImageView fitHeight="33.0" fitWidth="29.0" layoutX="9.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/homeicon3.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="33.0" fitWidth="27.0" layoutX="6.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/bars1.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="33.0" fitWidth="29.0" layoutX="9.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/settings.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="33.0" fitWidth="29.0" layoutX="9.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/bars.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Button layoutX="59.0" layoutY="460.0" mnemonicParsing="false" onAction="#switchToScene1" styleClass="backgroundColor" stylesheets="@styleSheets.css" text="Back" textFill="WHITE">
+                     <font>
+                        <Font name="Algerian" size="14.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="33.0" fitWidth="29.0" layoutX="423.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/tk1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="33.0" fitWidth="29.0" layoutX="86.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/tk1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

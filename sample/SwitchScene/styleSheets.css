@@ -1,0 +1,48 @@
+
+
+.sidebar{
+    -fx-background-color: linear-gradient(to right,darkviolet,mediumorchid );
+}
+
+.bimage{
+    -fx-background-image: url("../Images/Welcome.jpg");
+    -fx-background-size: cover;
+}
+
+.bimage2{
+    -fx-background-image: url("../Images/login.jpg");
+    -fx-background-size: cover;
+}
+
+.bimage3{
+    -fx-background-image: url("../Images/register.jpg");
+    -fx-background-size: cover;
+}
+
+.bimageLast{
+    -fx-background-image: url("../Images/last.jpg");
+    -fx-background-size: cover;
+}
+
+.sidebar_opt{
+    -fx-fill: indigo;
+}
+
+.sidebar_opt1{
+    -fx-border-color: black;
+}
+.sidebar_opt2{
+    -fx-background-color: white;
+}
+
+.pane{
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: HONEYDEW;
+    -fx-background-radius: 0px 0px 30px 30px ;
+    -fx-border-radius: 0px 0px 30px 30px ;
+}
+
+.backgroundColor{
+    -fx-background-color: linear-gradient(to right,darkviolet, mediumorchid);
+    -fx-border-color: black;
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Controller">
+    <children>
+        <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0">
+            <left>
+                <AnchorPane prefHeight="200.0" prefWidth="45.0" styleClass="sidebar" stylesheets="@styleSheets.css" BorderPane.alignment="CENTER">
+                    <children>
+                        <Circle fill="#edf6ffe8" layoutX="23.0" layoutY="468.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                    </children>
+                </AnchorPane>
+            </left>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <center>
+                <AnchorPane prefHeight="500.0" prefWidth="815.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <VBox alignment="TOP_CENTER" layoutX="45.0" layoutY="14.0" prefHeight="205.0" prefWidth="650.0" styleClass="pane" stylesheets="@styleSheets.css" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <HBox>
+                                    <children>
+                                        <Label style="-fx-font-weight: bolder; -fx-text-fill: #7049c4;" text="What you wanna do now?" textFill="#7049c4">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <Label alignment="CENTER_RIGHT" layoutX="112.0" layoutY="20.0" prefHeight="22.0" prefWidth="484.0" style="-fx-font-weight: bolder; -fx-text-fill: oliveblue;" text="Have a nice day !!!" textFill="#7f63bc">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                    <padding>
+                                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                    </padding>
+                                </HBox>
+                                <HBox prefHeight="234.0" prefWidth="694.0" VBox.vgrow="ALWAYS">
+                                    <VBox.margin>
+                                        <Insets />
+                                    </VBox.margin>
+                                    <children>
+                                        <ImageView fitHeight="163.0" fitWidth="342.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../Images/recreation.1.jpg" />
+                                            </image>
+                                            <HBox.margin>
+                                                <Insets bottom="10.0" left="50.0" top="30.0" />
+                                            </HBox.margin>
+                                        </ImageView>
+                                        <ImageView fitHeight="163.0" fitWidth="342.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../Images/dream.jpg" />
+                                            </image>
+                                            <HBox.margin>
+                                                <Insets bottom="10.0" top="30.0" />
+                                            </HBox.margin>
+                                        </ImageView>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                        <Label layoutX="99.0" layoutY="310.0" style="-fx-font-weight: bolder;" text="Hope so You will be able to do something good with your plans " textFill="#d90d0d">
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>

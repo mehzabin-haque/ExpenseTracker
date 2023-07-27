@@ -12,7 +12,7 @@ visualization experience through diverse graph options. Moreover, an engaging an
 application's outset adds a captivating touch, setting it apart from traditional financial management tools.
 
 Rest assured, security remains paramount, safeguarding user data, input amounts, and remaining 
-balances with utmost confidentiality. Users can trust our application for secure financial tracking and management.
+balances with the utmost confidentiality. Users can trust our application for secure financial tracking and management.
 
 ### Implemented in Java
 Our project serves as a comprehensive financial management solution, replete with user-friendly 
@@ -23,3 +23,7 @@ Feel free to explore our codebase, contribute to further development, and embark
 towards improved financial well-being. 
 
 ### Happy budgeting!
+
+
+## Video Demonstration
+<a link="https://drive.google.com/file/d/1B8cj67b2yOaUPkL78g2MzZua4z9jiAh6/view"> Expense Tracker <a>

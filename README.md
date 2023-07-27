@@ -1,13 +1,13 @@
 # ExpenseTracker
-Welcome to our financial management application, crafted to empower users with prudent spending habits. 
-With a starting balance of 100tk, our solution diverges from conventional spending practices, advocating 
-informed decisions before utilizing funds. The "Save" option facilitates allocation of desired expenditures, 
+Welcome to our financial management application, crafted to empower users with prudent spending habits.
+With a starting balance of 100 tk, our solution diverges from conventional spending practices, advocating 
+informed decisions before utilizing funds. The "Save" option facilitates the allocation of desired expenditures, 
 automatically deducted from the remaining balance, promoting mindful budgeting and savings for emergencies or personal aspirations.
 
 To enhance convenience, we introduce an alternative input method via a text editor, enabling users to
 save and import spending records at their discretion, eliminating the need for daily inputs.
 
-Our standout features include a user-friendly interface, delivering an exceptional data 
+Our standout features include a user-friendly interface and exceptional data 
 visualization experience through diverse graph options. Moreover, an engaging animation at the 
 application's outset adds a captivating touch, setting it apart from traditional financial management tools.
 
@@ -26,4 +26,5 @@ towards improved financial well-being.
 
 
 ## Video Demonstration
-<a link="https://drive.google.com/file/d/1B8cj67b2yOaUPkL78g2MzZua4z9jiAh6/view"> Expense Tracker <a>
+[Expense Tracker](https://drive.google.com/file/d/1B8cj67b2yOaUPkL78g2MzZua4z9jiAh6/view)
+
